@@ -9,13 +9,11 @@ eureka:
 spring:
   profiles: cloud
 eureka:
-  client:
-    serviceUrl:
-      default: https://iouri-eureka.cfapps.isg.hoopp.com/
+  serviceUrl:
+    default: https://iouri-eureka.cfapps.isg.hoopp.com/
 ---
 spring:
   profiles: local
 eureka:
-  client:
-    serviceUrl:
-      default: http://localhost:8070/
+  serviceUrl:
+    default: http://localhost:8070/
